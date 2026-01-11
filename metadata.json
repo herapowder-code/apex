@@ -1,0 +1,7 @@
+{
+  "name": "Apex Garage - Premium Performance",
+  "description": "A high-end vehicle service management and tracking application featuring live service updates, digital maintenance logbooks, and an AI-powered automotive advisor.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
