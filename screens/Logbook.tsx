@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ServiceHistoryItem } from '../types';
+import { ServiceHistoryItem } from '../types.ts';
 
 const Logbook: React.FC = () => {
   const navigate = useNavigate();

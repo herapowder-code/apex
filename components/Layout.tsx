@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { TabType } from '../types';
+import { TabType } from '../types.ts';
 
 interface LayoutProps {
   children: React.ReactNode;

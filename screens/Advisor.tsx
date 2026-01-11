@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GoogleGenAI } from '@google/genai';
-import { ChatMessage } from '../types';
+import { ChatMessage } from '../types.ts';
 
 const Advisor: React.FC = () => {
   const navigate = useNavigate();

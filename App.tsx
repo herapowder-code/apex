@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
-import Layout from './components/Layout';
-import Dashboard from './screens/Dashboard';
-import Tracking from './screens/Tracking';
-import Logbook from './screens/Logbook';
-import Advisor from './screens/Advisor';
+import Layout from './components/Layout.tsx';
+import Dashboard from './screens/Dashboard.tsx';
+import Tracking from './screens/Tracking.tsx';
+import Logbook from './screens/Logbook.tsx';
+import Advisor from './screens/Advisor.tsx';
 
 const AppContent: React.FC = () => {
   const location = useLocation();
